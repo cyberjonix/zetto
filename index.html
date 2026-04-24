@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trucking Company Philadelphia PA | Truckload, Dry Van, Reefer | Zetto Logistics</title>
+<meta name="description" content="Zetto Logistics — Philadelphia's premier trucking company. Dry Van, Reefer, Flatbed, LTL. Interstate &amp; Nationwide freight. USDOT licensed. Get an instant quote.">
+<meta name="keywords" content="trucking company Philadelphia PA, freight shipping Philadelphia, truckload Philadelphia, dry van Philly, reefer transport PA, LTL Philadelphia, freight broker Philadelphia">
+<meta property="og:title" content="Zetto Logistics | Trucking Company Philadelphia PA">
+<meta property="og:description" content="Philadelphia-based carrier. Dry Van · Reefer · Flatbed · LTL. 98% on-time. USDOT licensed. Instant quote available.">
+<meta property="og:type" content="website">
+<link rel="canonical" href="https://zettologistics.com/">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TruckingCompany",
+  "name": "Zetto Logistics LLC",
+  "url": "https://zettologistics.com",
+  "telephone": "+1-267-778-5050",
+  "email": "info@zettologistics.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Greater Philadelphia Area",
+    "addressLocality": "Philadelphia",
+    "addressRegion": "PA",
+    "postalCode": "19101",
+    "addressCountry": "US"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": 39.9526, "longitude": -75.1652 },
+  "openingHours": "Mo-Su 00:00-24:00",
+  "sameAs": ["https://www.instagram.com/zettologistics","https://t.me/zettologistics"],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Freight Services",
+    "itemListElement": [
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Dry Van Trucking"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Reefer Transport"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Flatbed Freight"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"LTL Shipping"}}
+    ]
+  }
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* ── RESET ── */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;font-size:16px}
+img{max-width:100%;display:block}
+a{text-decoration:none;color:inherit}
+ul{list-style:none}
+button{border:none;cursor:pointer;font-family:inherit}
+
+/* ── TOKENS ── */
+:root{
+  --navy:#0B1829;
+  --navy-mid:#0F2240;
+  --scarlet:#E8001C;
+  --gold:#D4A843;
+  --gold-light:#F0C96A;
+  --white:#FFFFFF;
+  --gray-100:#F5F3EE;
+  --gray-300:#E2DDD6;
+  --gray-500:#B4B2A9;
+  --gray-700:#5F5E5A;
+  --f-display:'Playfair Display',Georgia,serif;
+  --f-body:'DM Sans',system-ui,sans-serif;
+  --f-mono:'DM Mono',monospace;
+  --radius:4px;
+  --shadow:0 4px 32px rgba(11,24,41,.12);
+  --shadow-lg:0 12px 64px rgba(11,24,41,.22);
+}
+
+body{font-family:var(--f-body);color:var(--navy);background:var(--white);overflow-x:hidden}
+
+/* ── UTILITY ── */
+.container{max-width:1200px;margin:0 auto;padding:0 24px}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+.tag{display:inline-block;font-family:var(--f-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);padding:4px 10px;border:1px solid var(--gold);border-radius:2px}
+.section-label{font-family:var(--f-mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--scarlet);margin-bottom:16px}
+.divider-gold{width:48px;height:3px;background:var(--gold);margin:20px 0}
+
+/* ── BUTTONS ── */
+.btn{display:inline-flex;align-items:center;gap:8px;font-family:var(--f-body);font-weight:500;font-size:15px;letter-spacing:.04em;padding:14px 28px;border-radius:var(--radius);transition:all .2s ease;cursor:pointer}
+.btn-primary{background:var(--scarlet);color:var(--white)}
+.btn-primary:hover{background:#c4001a;transform:translateY(-1px);box-shadow:0 6px 24px rgba(232,0,28,.3)}
+.btn-outline{background:transparent;color:var(--white);border:1.5px solid rgba(255,255,255,.5)}
+.btn-outline:hover{border-color:var(--gold);color:var(--gold)}
+.btn-navy{background:var(--navy);color:var(--white)}
+.btn-navy:hover{background:var(--navy-mid)}
+.btn-gold{background:var(--gold);color:var(--navy);font-weight:700}
+.btn-gold:hover{background:var(--gold-light)}
+.btn svg{width:16px;height:16px;flex-shrink:0}
+
+/* ── TOP BAR ── */
+.topbar{background:var(--navy);padding:8px 0;border-bottom:2px solid var(--scarlet)}
+.topbar .container{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.topbar-left{display:flex;align-items:center;gap:24px}
+.topbar-item{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--gray-500)}
+.topbar-item strong{color:var(--white)}
+.topbar-item a{color:var(--gold);font-family:var(--f-mono)}
+.topbar-dot{color:var(--scarlet);font-size:16px;line-height:1}
+.compliance-badge{display:flex;align-items:center;gap:8px;font-family:var(--f-mono);font-size:10px;color:var(--gray-500);letter-spacing:.08em}
+.compliance-badge span{color:var(--gold-light)}
+
+/* ── NAV ── */
+nav{position:sticky;top:0;z-index:100;background:var(--white);border-bottom:1px solid var(--gray-300);box-shadow:0 2px 16px rgba(11,24,41,.08)}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;height:72px}
+.logo{display:flex;align-items:baseline;gap:0}
+.logo-zet{font-family:var(--f-display);font-size:36px;font-weight:900;color:var(--navy);letter-spacing:.04em}
+.logo-to{font-family:var(--f-display);font-size:36px;font-weight:900;color:var(--scarlet);letter-spacing:.04em}
+.logo-sub{font-family:var(--f-mono);font-size:9px;letter-spacing:.18em;color:var(--gold);display:block;margin-top:-4px;text-transform:uppercase;text-align:center}
+.logo-wrap{display:flex;flex-direction:column;align-items:center}
+.nav-links{display:flex;align-items:center;gap:4px}
+.nav-link{font-size:14px;font-weight:500;color:var(--gray-700);padding:8px 14px;border-radius:var(--radius);transition:color .15s,background .15s;white-space:nowrap}
+.nav-link:hover,.nav-link.active{color:var(--navy);background:var(--gray-100)}
+.nav-dropdown{position:relative}
+.nav-dropdown-menu{position:absolute;top:calc(100% + 8px);left:0;background:var(--white);border:1px solid var(--gray-300);border-radius:8px;min-width:220px;box-shadow:var(--shadow);padding:8px;opacity:0;pointer-events:none;transform:translateY(-8px);transition:all .2s}
+.nav-dropdown:hover .nav-dropdown-menu{opacity:1;pointer-events:auto;transform:translateY(0)}
+.nav-dropdown-item{display:block;padding:10px 14px;font-size:14px;color:var(--gray-700);border-radius:4px;transition:background .15s}
+.nav-dropdown-item:hover{background:var(--gray-100);color:var(--navy)}
+.nav-cta{display:flex;align-items:center;gap:10px}
+.nav-phone{font-family:var(--f-mono);font-size:14px;font-weight:500;color:var(--navy)}
+.hamburger{display:none;flex-direction:column;gap:5px;padding:8px;background:none;border:none;cursor:pointer}
+.hamburger span{display:block;width:22px;height:2px;background:var(--navy);transition:all .3s}
+
+/* ── HERO ── */
+.hero{position:relative;min-height:92vh;display:flex;align-items:center;background:var(--navy);overflow:hidden}
+.hero-bg{position:absolute;inset:0;background:
+  linear-gradient(135deg, rgba(11,24,41,.97) 0%, rgba(11,24,41,.85) 60%, rgba(15,34,64,.9) 100%)}
+.hero-pattern{position:absolute;inset:0;opacity:.04;background-image:repeating-linear-gradient(0deg,transparent,transparent 39px,rgba(212,168,67,1) 39px,rgba(212,168,67,1) 40px),repeating-linear-gradient(90deg,transparent,transparent 39px,rgba(212,168,67,1) 39px,rgba(212,168,67,1) 40px)}
+.hero-stripe{position:absolute;bottom:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--scarlet) 0%,var(--gold) 50%,var(--scarlet) 100%)}
+.hero-content{position:relative;z-index:2;padding:80px 0}
+.hero-tag{margin-bottom:24px}
+.hero h1{font-family:var(--f-display);font-size:clamp(42px,6vw,80px);font-weight:900;color:var(--white);line-height:1.04;letter-spacing:-.02em;margin-bottom:28px}
+.hero h1 em{color:var(--gold);font-style:normal}
+.hero-sub{font-size:18px;color:rgba(255,255,255,.7);max-width:520px;line-height:1.7;margin-bottom:40px}
+.hero-ctas{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:56px}
+.hero-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:rgba(255,255,255,.08);border-radius:8px;overflow:hidden;max-width:620px}
+.hero-stat{background:rgba(11,24,41,.6);padding:20px 24px;text-align:center}
+.hero-stat-num{font-family:var(--f-display);font-size:32px;font-weight:900;color:var(--gold);line-height:1}
+.hero-stat-label{font-size:11px;color:rgba(255,255,255,.5);margin-top:4px;text-transform:uppercase;letter-spacing:.08em}
+.hero-visual{position:absolute;right:-60px;top:50%;transform:translateY(-50%);width:52%;opacity:.15}
+.hero-visual svg{width:100%;height:auto}
+
+/* ── COMPLIANCE STRIP ── */
+.compliance-strip{background:var(--navy-mid);padding:16px 0;border-top:1px solid rgba(255,255,255,.06)}
+.compliance-inner{display:flex;align-items:center;justify-content:center;gap:32px;flex-wrap:wrap}
+.c-item{display:flex;align-items:center;gap:8px;font-family:var(--f-mono);font-size:11px;color:var(--gray-500);letter-spacing:.08em}
+.c-item strong{color:var(--gold-light)}
+.c-sep{color:rgba(255,255,255,.12);font-size:20px}
+
+/* ── SECTIONS ── */
+section{padding:96px 0}
+.section-light{background:var(--white)}
+.section-gray{background:var(--gray-100)}
+.section-dark{background:var(--navy);color:var(--white)}
+
+/* ── WHO WE SERVE ── */
+.serve-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;margin-top:48px;background:var(--gray-300)}
+.serve-card{background:var(--white);padding:48px 40px;transition:all .25s}
+.serve-card:hover{background:var(--navy);transform:translateY(-4px)}
+.serve-card:hover *{color:var(--white)!important}
+.serve-card:hover .serve-icon{background:var(--scarlet)}
+.serve-icon{width:56px;height:56px;background:var(--gray-100);border-radius:8px;display:flex;align-items:center;justify-content:center;margin-bottom:24px;transition:background .25s}
+.serve-icon svg{width:28px;height:28px;color:var(--navy)}
+.serve-card h3{font-family:var(--f-display);font-size:22px;font-weight:700;margin-bottom:12px;color:var(--navy)}
+.serve-card p{font-size:14px;line-height:1.7;color:var(--gray-700)}
+.serve-card .serve-link{display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:500;color:var(--scarlet);margin-top:20px;transition:gap .2s}
+.serve-card .serve-link:hover{gap:10px}
+
+/* ── SERVICES ── */
+.services-header{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:end;margin-bottom:56px}
+.services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.service-card{border:1px solid var(--gray-300);border-radius:8px;padding:36px;position:relative;overflow:hidden;transition:all .25s;cursor:pointer}
+.service-card::before{content:'';position:absolute;top:0;left:0;width:3px;height:0;background:var(--scarlet);transition:height .3s}
+.service-card:hover{border-color:var(--navy);box-shadow:var(--shadow)}
+.service-card:hover::before{height:100%}
+.service-num{font-family:var(--f-mono);font-size:11px;color:var(--gray-500);margin-bottom:16px}
+.service-card h3{font-family:var(--f-display);font-size:20px;font-weight:700;margin-bottom:8px}
+.service-card p{font-size:13px;line-height:1.6;color:var(--gray-700)}
+.service-badge{display:inline-block;margin-top:16px;font-family:var(--f-mono);font-size:10px;letter-spacing:.1em;color:var(--gold);background:rgba(212,168,67,.1);padding:4px 10px;border-radius:2px}
+
+/* ── LANES MAP ── */
+.lanes-section{overflow:hidden}
+.lanes-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+.lane-list{margin-top:32px}
+.lane-item{display:flex;align-items:center;justify-content:space-between;padding:16px 0;border-bottom:1px solid rgba(255,255,255,.08);cursor:pointer;transition:padding .2s}
+.lane-item:hover{padding-left:8px}
+.lane-from-to{display:flex;align-items:center;gap:12px;font-size:15px;font-weight:500}
+.lane-from-to .arrow{color:var(--gold);font-size:18px}
+.lane-meta{font-family:var(--f-mono);font-size:11px;color:var(--gray-500)}
+.lane-map{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);border-radius:12px;padding:40px;aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;position:relative}
+
+/* ── QUOTE FORM ── */
+.quote-section{background:var(--gray-100);border-top:3px solid var(--scarlet)}
+.quote-inner{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+.quote-form{background:var(--white);border-radius:12px;padding:48px;box-shadow:var(--shadow)}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.form-grid.full{grid-template-columns:1fr}
+.form-group{display:flex;flex-direction:column;gap:6px}
+.form-group label{font-size:12px;font-weight:500;letter-spacing:.06em;text-transform:uppercase;color:var(--gray-700)}
+.form-group input,.form-group select,.form-group textarea{font-family:var(--f-body);font-size:15px;padding:12px 16px;border:1px solid var(--gray-300);border-radius:var(--radius);background:var(--gray-100);color:var(--navy);transition:border .2s;outline:none}
+.form-group input:focus,.form-group select:focus,.form-group textarea:focus{border-color:var(--navy);background:var(--white)}
+.form-group select{appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath d='M6 8L1 3h10z' fill='%235F5E5A'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center;background-color:var(--gray-100)}
+.form-submit{width:100%;padding:16px;font-size:16px;font-weight:700;letter-spacing:.04em;background:var(--scarlet);color:var(--white);border-radius:var(--radius);margin-top:8px;transition:all .2s}
+.form-submit:hover{background:#c4001a;transform:translateY(-1px);box-shadow:0 6px 24px rgba(232,0,28,.3)}
+.form-note{font-size:12px;color:var(--gray-500);text-align:center;margin-top:12px}
+
+/* ── BROKERS CTA ── */
+.brokers-section{background:var(--navy);position:relative;overflow:hidden}
+.brokers-section::before{content:'';position:absolute;top:-100px;right:-100px;width:400px;height:400px;border-radius:50%;background:rgba(232,0,28,.06)}
+.brokers-inner{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center;position:relative;z-index:1}
+.broker-features{margin-top:32px;display:flex;flex-direction:column;gap:16px}
+.broker-feature{display:flex;align-items:flex-start;gap:14px}
+.broker-feature-icon{width:32px;height:32px;background:rgba(212,168,67,.12);border-radius:4px;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:2px}
+.broker-feature-icon svg{width:16px;height:16px;color:var(--gold)}
+.broker-feature h4{font-size:14px;font-weight:600;color:var(--white);margin-bottom:2px}
+.broker-feature p{font-size:13px;color:var(--gray-500);line-height:1.5}
+.broker-packet{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);border-radius:12px;padding:40px}
+.packet-item{display:flex;align-items:center;justify-content:space-between;padding:14px 0;border-bottom:1px solid rgba(255,255,255,.06)}
+.packet-item:last-child{border-bottom:none}
+.packet-name{font-size:14px;color:var(--white);display:flex;align-items:center;gap:10px}
+.packet-name svg{width:16px;height:16px;color:var(--gold)}
+.packet-dl{font-family:var(--f-mono);font-size:11px;color:var(--scarlet);letter-spacing:.08em}
+
+/* ── TRUST STATS ── */
+.trust-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:32px;margin-top:56px}
+.trust-stat{text-align:center;padding:40px 24px;border:1px solid var(--gray-300);border-radius:8px}
+.trust-num{font-family:var(--f-display);font-size:48px;font-weight:900;color:var(--navy);line-height:1}
+.trust-num span{color:var(--scarlet)}
+.trust-label{font-size:13px;color:var(--gray-700);margin-top:8px;line-height:1.4}
+
+/* ── TESTIMONIALS ── */
+.testimonials-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:48px}
+.testimonial-card{background:var(--white);border:1px solid var(--gray-300);border-radius:8px;padding:36px}
+.testimonial-stars{color:var(--gold);font-size:14px;margin-bottom:16px;letter-spacing:2px}
+.testimonial-text{font-size:15px;line-height:1.7;color:var(--navy);margin-bottom:20px;font-style:italic}
+.testimonial-author{display:flex;align-items:center;gap:12px}
+.testimonial-avatar{width:40px;height:40px;border-radius:50%;background:var(--navy);display:flex;align-items:center;justify-content:center;font-family:var(--f-display);font-size:16px;font-weight:700;color:var(--gold)}
+.testimonial-name{font-weight:600;font-size:14px}
+.testimonial-company{font-size:12px;color:var(--gray-500)}
+
+/* ── FOOTER ── */
+footer{background:var(--navy);color:var(--white);padding:80px 0 0}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:48px;padding-bottom:64px;border-bottom:1px solid rgba(255,255,255,.08)}
+.footer-logo{margin-bottom:20px}
+.footer-desc{font-size:14px;color:var(--gray-500);line-height:1.7;max-width:300px;margin-bottom:24px}
+.footer-compliance{display:flex;flex-direction:column;gap:8px}
+.fc-item{font-family:var(--f-mono);font-size:10px;color:var(--gray-500);letter-spacing:.08em}
+.fc-item strong{color:var(--gold-light)}
+.footer-col h4{font-family:var(--f-mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);margin-bottom:20px}
+.footer-links{display:flex;flex-direction:column;gap:10px}
+.footer-link{font-size:14px;color:var(--gray-500);transition:color .15s}
+.footer-link:hover{color:var(--white)}
+.footer-bottom{display:flex;align-items:center;justify-content:space-between;padding:24px 0;font-size:12px;color:var(--gray-700)}
+.footer-bottom-links{display:flex;gap:24px}
+.footer-bottom a{color:var(--gray-700);transition:color .15s}
+.footer-bottom a:hover{color:var(--white)}
+.footer-scarlet-line{height:3px;background:linear-gradient(90deg,var(--scarlet),var(--gold),var(--scarlet));margin-bottom:0}
+
+/* ── FLOATING CTA ── */
+.float-cta{position:fixed;bottom:24px;right:24px;z-index:200;display:flex;flex-direction:column;gap:10px;align-items:flex-end}
+.float-btn{display:flex;align-items:center;gap:10px;padding:12px 20px;border-radius:40px;font-size:14px;font-weight:600;box-shadow:0 4px 24px rgba(0,0,0,.2);transition:all .2s;cursor:pointer;border:none}
+.float-btn-quote{background:var(--scarlet);color:var(--white)}
+.float-btn-quote:hover{transform:scale(1.04)}
+.float-btn-wa{background:#25D366;color:var(--white)}
+.float-btn-wa:hover{transform:scale(1.04)}
+.float-btn svg{width:18px;height:18px}
+
+/* ── MOBILE ── */
+@media(max-width:900px){
+  .serve-grid,.services-grid,.lanes-grid,.quote-inner,.trust-grid,.testimonials-grid,.footer-grid,.services-header{grid-template-columns:1fr}
+  .hero-stats{grid-template-columns:repeat(2,1fr)}
+  .hero-visual{display:none}
+  .nav-links,.nav-cta .btn{display:none}
+  .hamburger{display:flex}
+  .nav-phone{display:none}
+  .form-grid{grid-template-columns:1fr}
+  .compliance-inner{gap:16px}
+}
+
+/* ── ANIMATIONS ── */
+@keyframes fadeUp{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:translateY(0)}}
+@keyframes slideRight{from{opacity:0;transform:translateX(-16px)}to{opacity:1;transform:translateX(0)}}
+.fade-up{animation:fadeUp .7s ease both}
+.delay-1{animation-delay:.1s}
+.delay-2{animation-delay:.2s}
+.delay-3{animation-delay:.3s}
+.delay-4{animation-delay:.4s}
+</style>
+</head>
+<body>
+
+<!-- ── TOP BAR ── -->
+<div class="topbar">
+  <div class="container">
+    <div class="topbar-left">
+      <div class="topbar-item">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.64A2 2 0 012 .84h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.23-1.23a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+        <a href="tel:+12677785050"><strong>267-778-5050</strong></a>
+        <span class="topbar-dot">·</span>
+        <span>24/7 Dispatch</span>
+      </div>
+      <div class="topbar-item">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        <a href="mailto:info@zettologistics.com"><strong>info@zettologistics.com</strong></a>
+      </div>
+      <div class="topbar-item">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        <span><strong>Greater Philadelphia, PA</strong></span>
+      </div>
+    </div>
+    <div class="compliance-badge">
+      <span>USDOT <strong>3456789</strong></span>
+      <span style="color:rgba(255,255,255,.2)">|</span>
+      <span>MC <strong>1234567</strong></span>
+      <span style="color:rgba(255,255,255,.2)">|</span>
+      <span>Safety: <strong style="color:#4ade80">SATISFACTORY</strong></span>
+    </div>
+  </div>
+</div>
+
+<!-- ── NAV ── -->
+<nav>
+  <div class="container">
+    <div class="nav-inner">
+      <a href="/" class="logo">
+        <div class="logo-wrap">
+          <div><span class="logo-zet">ZET</span><span class="logo-to">TO</span></div>
+          <span class="logo-sub">Logistics</span>
+        </div>
+      </a>
+      <div class="nav-links">
+        <div class="nav-dropdown">
+          <a href="#services" class="nav-link">Services ▾</a>
+          <div class="nav-dropdown-menu">
+            <a class="nav-dropdown-item" href="#services">Dry Van</a>
+            <a class="nav-dropdown-item" href="#services">Reefer</a>
+            <a class="nav-dropdown-item" href="#services">Flatbed</a>
+            <a class="nav-dropdown-item" href="#services">LTL</a>
+            <a class="nav-dropdown-item" href="#services">Dedicated</a>
+          </div>
+        </div>
+
+        <a href="#shippers" class="nav-link">For Shippers</a>
+        <a href="#trust" class="nav-link">Safety</a>
+        <a href="#lanes" class="nav-link">Lanes</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+      <div class="nav-cta">
+        <a href="tel:+12677785050" class="nav-phone">267-778-5050</a>
+        <a href="#quote" class="btn btn-primary">Get Quote →</a>
+      </div>
+      <button class="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- ── HERO ── -->
+<section class="hero" id="home">
+  <div class="hero-bg"></div>
+  <div class="hero-pattern"></div>
+  <div class="hero-visual">
+    <svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+      <rect x="20" y="120" width="680" height="120" rx="8" fill="white" opacity=".06"/>
+      <rect x="20" y="120" width="200" height="120" rx="8" fill="white" opacity=".04"/>
+      <circle cx="100" cy="260" r="40" fill="white" opacity=".06"/>
+      <circle cx="580" cy="260" r="40" fill="white" opacity=".06"/>
+      <circle cx="680" cy="260" r="40" fill="white" opacity=".06"/>
+    </svg>
+  </div>
+  <div class="container hero-content">
+    <div class="hero-tag fade-up">
+      <span class="tag">Philadelphia, PA · Est. 2020</span>
+    </div>
+    <h1 class="fade-up delay-1">
+      Philadelphia's<br>
+      <em>Premier Carrier</em><br>
+      You Can Trust
+    </h1>
+    <p class="hero-sub fade-up delay-2">
+      Dry Van · Reefer · Flatbed · LTL. Interstate &amp; Nationwide freight from Philadelphia. Direct shipper rates — no broker markup.
+    </p>
+    <div class="hero-ctas fade-up delay-3">
+      <a href="#quote" class="btn btn-primary" style="font-size:16px;padding:16px 32px">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        Get Instant Quote
+      </a>
+      <a href="mailto:info@zettologistics.com?subject=Carrier Packet Request" class="btn btn-outline" style="font-size:16px;padding:16px 32px">
+        Request Carrier Packet →
+      </a>
+    </div>
+    <div class="hero-stats fade-up delay-4">
+      <div class="hero-stat">
+        <div class="hero-stat-num">98%</div>
+        <div class="hero-stat-label">On-Time Delivery</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num">50+</div>
+        <div class="hero-stat-label">Power Units</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num">$1M+</div>
+        <div class="hero-stat-label">BIPD Insurance</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num">24/7</div>
+        <div class="hero-stat-label">GPS Tracking</div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-stripe"></div>
+</section>
+
+<!-- ── COMPLIANCE STRIP ── -->
+<div class="compliance-strip">
+  <div class="compliance-inner">
+    <div class="c-item">USDOT <strong>3456789</strong></div>
+    <span class="c-sep">|</span>
+    <div class="c-item">MC <strong>1234567</strong></div>
+    <span class="c-sep">|</span>
+    <div class="c-item">Safety Rating <strong>SATISFACTORY</strong></div>
+    <span class="c-sep">|</span>
+    <div class="c-item">Cargo Insurance <strong>$100,000</strong></div>
+    <span class="c-sep">|</span>
+    <div class="c-item">BIPD <strong>$1,000,000</strong></div>
+    <span class="c-sep">|</span>
+    <div class="c-item">ELD <strong>COMPLIANT</strong></div>
+    <span class="c-sep">|</span>
+    <div class="c-item"><a href="https://safer.fmcsa.dot.gov" target="_blank" rel="noopener" style="color:var(--gold-light);text-decoration:underline">Verify on FMCSA →</a></div>
+  </div>
+</div>
+
+<!-- ── WHO WE SERVE ── -->
+<section class="section-light" id="serve">
+  <div class="container">
+    <div class="section-label">Who We Serve</div>
+    <h2 style="font-family:var(--f-display);font-size:clamp(28px,4vw,48px);font-weight:900;max-width:480px;line-height:1.1">Built for Every Link in the Supply Chain</h2>
+    <div class="serve-grid">
+      <div class="serve-card">
+        <div class="serve-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+        </div>
+        <h3>Shippers</h3>
+        <p>Direct carrier rates — no broker markup. Instant quote, real-time tracking, POD in one click. Dedicated lanes Philly to anywhere.</p>
+        <a href="#shippers" class="serve-link">Get Direct Rate →</a>
+      </div>
+      <div class="serve-card">
+        <div class="serve-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+        </div>
+        <h3>Brokers</h3>
+        <p>One-click carrier packet: Authority, W-9, Insurance, References. 50+ trucks available daily. GPS tracking every mile.</p>
+        <a href="mailto:info@zettologistics.com?subject=Carrier Packet Request" class="serve-link">Request Packet →</a>
+      </div>
+      <div class="serve-card">
+        <div class="serve-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <h3>Carriers / Partners</h3>
+        <p>Join our network. Consistent freight, fast pay, fuel discounts. ELD compliant. Apply online in 5 minutes.</p>
+        <a href="#contact" class="serve-link">Join Network →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── SERVICES ── -->
+<section class="section-gray" id="services">
+  <div class="container">
+    <div class="services-header">
+      <div>
+        <div class="section-label">Our Services</div>
+        <h2 style="font-family:var(--f-display);font-size:clamp(28px,4vw,48px);font-weight:900;line-height:1.1">Full-Service Freight Solutions</h2>
+      </div>
+      <div>
+        <p style="color:var(--gray-700);line-height:1.7">From temperature-controlled reefer to heavy flatbed — we have the equipment and the lanes to move your freight efficiently out of Philadelphia.</p>
+        <div class="divider-gold"></div>
+      </div>
+    </div>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-num">01</div>
+        <h3>Dry Van</h3>
+        <p>Standard trailers 48' and 53'. Full truckload and partial. Blanket wrap available. Perfect for manufactured goods, retail, and general commodities.</p>
+        <span class="service-badge">Most Popular</span>
+      </div>
+      <div class="service-card">
+        <div class="service-num">02</div>
+        <h3>Reefer / Temperature Controlled</h3>
+        <p>Refrigerated transport for perishables, pharma, and temperature-sensitive freight. -20°F to +70°F. Continuous monitoring.</p>
+        <span class="service-badge">Pharma Certified</span>
+      </div>
+      <div class="service-card">
+        <div class="service-num">03</div>
+        <h3>Flatbed</h3>
+        <p>Oversized, heavy haul, and project cargo. Steel, lumber, machinery, construction materials. Tarping and strapping included.</p>
+        <span class="service-badge">Oversize Permitted</span>
+      </div>
+      <div class="service-card">
+        <div class="service-num">04</div>
+        <h3>LTL — Less Than Truckload</h3>
+        <p>Don't pay for space you don't use. Consolidated freight with the reliability of a full-service carrier. Same transit times.</p>
+        <span class="service-badge">Cost Efficient</span>
+      </div>
+      <div class="service-card">
+        <div class="service-num">05</div>
+        <h3>Dedicated Fleet</h3>
+        <p>Your dedicated drivers, your equipment, your schedule. Fixed costs, priority service, custom reporting. Ideal for high-volume shippers.</p>
+        <span class="service-badge">Custom SLA</span>
+      </div>
+      <div class="service-card">
+        <div class="service-num">06</div>
+        <h3>Expedited & Hot Shot</h3>
+        <p>Time-critical freight? We move it fast. 24/7 dispatch, direct routing, no stops. Philadelphia to anywhere in 24–48h.</p>
+        <span class="service-badge">24/7 Available</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── LANES ── -->
+<section class="section-dark lanes-section" id="lanes">
+  <div class="container">
+    <div class="lanes-grid">
+      <div>
+        <div class="section-label">Primary Lanes</div>
+        <h2 style="font-family:var(--f-display);font-size:clamp(28px,4vw,48px);font-weight:900;line-height:1.1;color:var(--white)">Based in Philly.<br><span style="color:var(--gold)">Running Nationwide.</span></h2>
+        <p style="color:var(--gray-500);margin-top:16px;line-height:1.7">We haul Interstate &amp; Nationwide — from Philadelphia to all 48 contiguous states. Any lane, any load, any equipment.</p>
+        <div class="lane-list">
+          <div class="lane-item"><div class="lane-from-to"><strong>Northeast</strong><span class="arrow">→</span><strong>All States</strong></div><div class="lane-meta">NY · NJ · CT · MA · RI · VT · NH · ME</div></div>
+          <div class="lane-item"><div class="lane-from-to"><strong>Mid-Atlantic</strong><span class="arrow">→</span><strong>All States</strong></div><div class="lane-meta">DC · MD · VA · DE · NC · SC</div></div>
+          <div class="lane-item"><div class="lane-from-to"><strong>Midwest</strong><span class="arrow">→</span><strong>All States</strong></div><div class="lane-meta">OH · IL · IN · MI · WI · MN · MO</div></div>
+          <div class="lane-item"><div class="lane-from-to"><strong>Southeast</strong><span class="arrow">→</span><strong>All States</strong></div><div class="lane-meta">GA · FL · AL · TN · KY · MS</div></div>
+          <div class="lane-item"><div class="lane-from-to"><strong>South &amp; Southwest</strong><span class="arrow">→</span><strong>All States</strong></div><div class="lane-meta">TX · LA · AR · OK · NM · AZ</div></div>
+          <div class="lane-item"><div class="lane-from-to"><strong>West Coast</strong><span class="arrow">→</span><strong>All States</strong></div><div class="lane-meta">CA · OR · WA · NV · CO · UT</div></div>
+        </div>
+        <a href="#quote" class="btn btn-gold" style="margin-top:32px">Get Nationwide Quote →</a>
+      </div>
+      <div class="lane-map">
+        <div style="text-align:center">
+          <div style="font-family:var(--f-mono);font-size:10px;color:var(--gray-500);letter-spacing:.12em;margin-bottom:16px">COVERAGE MAP</div>
+          <svg viewBox="0 0 340 240" width="300" xmlns="http://www.w3.org/2000/svg">
+            <!-- Simplified US Northeast map shape -->
+            <rect x="10" y="10" width="320" height="220" rx="4" fill="rgba(255,255,255,.03)" stroke="rgba(255,255,255,.08)" stroke-width="1"/>
+            <!-- State outlines simplified -->
+            <path d="M80,40 L180,40 L200,60 L200,140 L120,180 L80,160 Z" fill="none" stroke="rgba(255,255,255,.1)" stroke-width="1"/>
+            <path d="M200,40 L280,40 L300,80 L280,120 L200,120 L200,40Z" fill="none" stroke="rgba(255,255,255,.1)" stroke-width="1"/>
+            <!-- Philly hub -->
+            <circle cx="165" cy="120" r="10" fill="var(--scarlet)" opacity=".9"/>
+            <circle cx="165" cy="120" r="20" fill="var(--scarlet)" opacity=".15"/>
+            <text x="180" y="124" font-family="monospace" font-size="9" fill="var(--gold)">PHILLY HUB</text>
+            <!-- Route lines -->
+            <line x1="165" y1="120" x2="240" y2="70" stroke="var(--gold)" stroke-width="1.5" stroke-dasharray="4,3" opacity=".5"/>
+            <line x1="165" y1="120" x2="100" y2="40" stroke="var(--gold)" stroke-width="1" stroke-dasharray="4,3" opacity=".4"/>
+            <line x1="165" y1="120" x2="70" y2="140" stroke="var(--gold)" stroke-width="1" stroke-dasharray="4,3" opacity=".4"/>
+            <line x1="165" y1="120" x2="165" y2="200" stroke="var(--gold)" stroke-width="1" stroke-dasharray="4,3" opacity=".4"/>
+            <line x1="165" y1="120" x2="290" y2="110" stroke="var(--gold)" stroke-width="1" stroke-dasharray="4,3" opacity=".3"/>
+            <!-- City dots -->
+            <circle cx="240" cy="70" r="5" fill="rgba(212,168,67,.8)"/>
+            <text x="248" y="74" font-family="monospace" font-size="8" fill="rgba(255,255,255,.5)">NYC</text>
+            <circle cx="100" cy="40" r="4" fill="rgba(212,168,67,.6)"/>
+            <text x="108" y="44" font-family="monospace" font-size="8" fill="rgba(255,255,255,.5)">Boston</text>
+            <circle cx="70" cy="140" r="4" fill="rgba(212,168,67,.6)"/>
+            <text x="30" y="144" font-family="monospace" font-size="8" fill="rgba(255,255,255,.5)">DC</text>
+            <circle cx="165" cy="200" r="4" fill="rgba(212,168,67,.6)"/>
+            <text x="170" y="204" font-family="monospace" font-size="8" fill="rgba(255,255,255,.5)">Atlanta</text>
+            <circle cx="290" cy="110" r="4" fill="rgba(212,168,67,.5)"/>
+            <text x="265" y="128" font-family="monospace" font-size="8" fill="rgba(255,255,255,.5)">Chicago</text>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── INSTANT QUOTE ── -->
+<section class="quote-section" id="quote">
+  <div class="container" style="padding-top:96px;padding-bottom:96px">
+    <div class="quote-inner">
+      <div>
+        <div class="section-label">Instant Quote</div>
+        <h2 style="font-family:var(--f-display);font-size:clamp(28px,4vw,48px);font-weight:900;line-height:1.1;margin-bottom:20px">Get a Rate in<br><span style="color:var(--scarlet)">60 Seconds</span></h2>
+        <p style="color:var(--gray-700);line-height:1.7;margin-bottom:32px">Direct carrier rates — no broker in the middle. Tell us your lane and we'll send you a competitive rate immediately.</p>
+        <div style="display:flex;flex-direction:column;gap:16px">
+          <div style="display:flex;align-items:center;gap:12px;font-size:14px;color:var(--gray-700)">
+            <div style="width:8px;height:8px;background:var(--scarlet);border-radius:50%"></div>
+            No commitment required
+          </div>
+          <div style="display:flex;align-items:center;gap:12px;font-size:14px;color:var(--gray-700)">
+            <div style="width:8px;height:8px;background:var(--scarlet);border-radius:50%"></div>
+            Response within 30 minutes
+          </div>
+          <div style="display:flex;align-items:center;gap:12px;font-size:14px;color:var(--gray-700)">
+            <div style="width:8px;height:8px;background:var(--scarlet);border-radius:50%"></div>
+            Beat your current broker rate
+          </div>
+          <div style="display:flex;align-items:center;gap:12px;font-size:14px;color:var(--gray-700)">
+            <div style="width:8px;height:8px;background:var(--scarlet);border-radius:50%"></div>
+            Available 24/7, 365 days
+          </div>
+        </div>
+        <div style="margin-top:32px;padding:20px;background:var(--navy);border-radius:8px;color:var(--white)">
+          <div style="font-family:var(--f-mono);font-size:10px;color:var(--gold);letter-spacing:.12em;margin-bottom:8px">OR CALL DIRECTLY</div>
+          <a href="tel:+12677785050" style="font-family:var(--f-display);font-size:28px;font-weight:700;color:var(--white)">267-778-5050</a>
+          <div style="font-size:12px;color:var(--gray-500);margin-top:4px">24/7 Dispatch · Live agent always available</div>
+        </div>
+      </div>
+      <div class="quote-form">
+        <div style="font-family:var(--f-display);font-size:22px;font-weight:700;margin-bottom:24px">Request a Quote</div>
+        <form onsubmit="handleQuote(event)">
+          <div class="form-grid">
+            <div class="form-group">
+              <label>Origin ZIP</label>
+              <input type="text" placeholder="19101" maxlength="5">
+            </div>
+            <div class="form-group">
+              <label>Destination ZIP</label>
+              <input type="text" placeholder="10001" maxlength="5">
+            </div>
+          </div>
+          <div class="form-grid" style="margin-top:16px">
+            <div class="form-group">
+              <label>Equipment Type</label>
+              <select>
+                <option>Dry Van 53'</option>
+                <option>Reefer 53'</option>
+                <option>Flatbed 48'</option>
+                <option>LTL</option>
+                <option>Expedited</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Pickup Date</label>
+              <input type="date">
+            </div>
+          </div>
+          <div class="form-grid" style="margin-top:16px">
+            <div class="form-group">
+              <label>Weight (lbs)</label>
+              <input type="number" placeholder="40,000">
+            </div>
+            <div class="form-group">
+              <label>Commodity</label>
+              <input type="text" placeholder="General freight">
+            </div>
+          </div>
+          <div class="form-grid full" style="margin-top:16px">
+            <div class="form-group">
+              <label>Your Name & Company</label>
+              <input type="text" placeholder="John Smith — Acme Corp">
+            </div>
+          </div>
+          <div class="form-grid" style="margin-top:16px">
+            <div class="form-group">
+              <label>Email</label>
+              <input type="email" placeholder="john@acme.com">
+            </div>
+            <div class="form-group">
+              <label>Phone</label>
+              <input type="tel" placeholder="267-778-5050">
+            </div>
+          </div>
+          <button type="submit" class="form-submit">Get My Rate Now →</button>
+          <div class="form-note">We respond within 30 minutes · No spam</div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ── TRUST STATS ── -->
+<section class="section-light" id="shippers">
+  <div class="container">
+    <div class="section-label">Why Zetto</div>
+    <h2 style="font-family:var(--f-display);font-size:clamp(28px,4vw,48px);font-weight:900;max-width:480px;line-height:1.1;margin-bottom:8px">The Numbers Don't Lie</h2>
+    <p style="color:var(--gray-700);max-width:520px;line-height:1.7">Four years serving Philadelphia's freight community. Here's our track record.</p>
+    <div class="trust-grid">
+      <div class="trust-stat"><div class="trust-num">98<span>%</span></div><div class="trust-label">On-Time Delivery Rate<br><small style="color:var(--gray-500)">vs. 91% industry avg</small></div></div>
+      <div class="trust-stat"><div class="trust-num">50<span>+</span></div><div class="trust-label">Power Units<br><small style="color:var(--gray-500)">Average age &lt; 3 years</small></div></div>
+      <div class="trust-stat"><div class="trust-num">$1<span>M</span></div><div class="trust-label">BIPD Insurance<br><small style="color:var(--gray-500)">+ $100K cargo</small></div></div>
+      <div class="trust-stat"><div class="trust-num">4<span>yr</span></div><div class="trust-label">In Business<br><small style="color:var(--gray-500)">Philadelphia, PA based</small></div></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ── TRUST & SECURITY ── -->
+<section class="section-gray" id="trust">
+  <div class="container">
+    <div class="section-label">Trust &amp; Security</div>
+    <h2 style="font-family:var(--f-display);font-size:clamp(28px,4vw,48px);font-weight:900;line-height:1.1;margin-bottom:12px">Built for Brokers Who<br>Check Everything</h2>
+    <p style="color:var(--gray-700);max-width:560px;line-height:1.7;margin-bottom:48px">We prioritize the safety of your cargo and the integrity of your data through rigorous FMCSA compliance and industry-leading protections.</p>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:24px">
+
+      <div style="background:var(--white);border:1px solid var(--gray-300);border-radius:8px;padding:32px;border-top:3px solid #E8001C">
+        <div style="font-family:var(--f-mono);font-size:10px;color:#E8001C;letter-spacing:.12em;margin-bottom:16px">AUTHORITIES</div>
+        <div style="font-size:15px;font-weight:600;color:var(--navy);margin-bottom:8px">MC 1808732</div>
+        <div style="font-size:15px;font-weight:600;color:var(--navy);margin-bottom:8px">USDOT 4553479</div>
+        <div style="font-size:15px;font-weight:600;color:var(--navy);margin-bottom:16px">SCAC Registered</div>
+        <a href="https://safer.fmcsa.dot.gov" target="_blank" rel="noopener" style="font-family:var(--f-mono);font-size:11px;color:var(--gold)">Verify on FMCSA →</a>
+      </div>
+
+      <div style="background:var(--white);border:1px solid var(--gray-300);border-radius:8px;padding:32px;border-top:3px solid var(--gold)">
+        <div style="font-family:var(--f-mono);font-size:10px;color:var(--gold);letter-spacing:.12em;margin-bottom:16px">SAFETY &amp; INSURANCE</div>
+        <div style="display:flex;flex-direction:column;gap:12px">
+          <div style="display:flex;align-items:center;gap:10px"><div style="width:8px;height:8px;min-width:8px;background:#4ade80;border-radius:50%"></div><span style="font-size:13px;color:var(--gray-700)">FMCSA Safety: <strong style="color:var(--navy)">Satisfactory</strong></span></div>
+          <div style="display:flex;align-items:center;gap:10px"><div style="width:8px;height:8px;min-width:8px;background:#4ade80;border-radius:50%"></div><span style="font-size:13px;color:var(--gray-700)">Auto Liability: <strong style="color:var(--navy)">$1,000,000</strong></span></div>
+          <div style="display:flex;align-items:center;gap:10px"><div style="width:8px;height:8px;min-width:8px;background:#4ade80;border-radius:50%"></div><span style="font-size:13px;color:var(--gray-700)">Cargo Insurance: <strong style="color:var(--navy)">$250,000</strong></span></div>
+          <div style="display:flex;align-items:center;gap:10px"><div style="width:8px;height:8px;min-width:8px;background:#4ade80;border-radius:50%"></div><span style="font-size:13px;color:var(--gray-700)">Cyber Risk: <strong style="color:var(--navy)">Insured</strong></span></div>
+        </div>
+      </div>
+
+      <div style="background:var(--white);border:1px solid var(--gray-300);border-radius:8px;padding:32px;border-top:3px solid var(--navy)">
+        <div style="font-family:var(--f-mono);font-size:10px;color:var(--navy);letter-spacing:.12em;margin-bottom:16px">TECHNOLOGY &amp; DATA</div>
+        <div style="display:flex;flex-direction:column;gap:12px">
+          <div style="display:flex;align-items:center;gap:10px"><div style="width:8px;height:8px;min-width:8px;background:#E8001C;border-radius:50%"></div><span style="font-size:13px;color:var(--gray-700)">Real-time GPS Tracking 24/7</span></div>
+          <div style="display:flex;align-items:center;gap:10px"><div style="width:8px;height:8px;min-width:8px;background:#E8001C;border-radius:50%"></div><span style="font-size:13px;color:var(--gray-700)">ELD Integrated (Samsara)</span></div>
+          <div style="display:flex;align-items:center;gap:10px"><div style="width:8px;height:8px;min-width:8px;background:#E8001C;border-radius:50%"></div><span style="font-size:13px;color:var(--gray-700)">Cloudflare WAF Protection</span></div>
+          <div style="display:flex;align-items:center;gap:10px"><div style="width:8px;height:8px;min-width:8px;background:#E8001C;border-radius:50%"></div><span style="font-size:13px;color:var(--gray-700)">AES-256 Encryption at Rest</span></div>
+          <div style="display:flex;align-items:center;gap:10px"><div style="width:8px;height:8px;min-width:8px;background:var(--gray-500);border-radius:50%"></div><span style="font-size:13px;color:var(--gray-700)">SOC 2 Type II <em style="color:var(--gray-500);font-size:11px">(In Progress)</em></span></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── TESTIMONIALS ── -->
+<section class="section-gray">
+  <div class="container">
+    <div class="section-label">Testimonials</div>
+    <h2 style="font-family:var(--f-display);font-size:clamp(28px,4vw,48px);font-weight:900;line-height:1.1">What Our Clients Say</h2>
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-text">"Zetto has been our go-to carrier for the Philly-NYC lane for two years. 98% on-time, never a headache. Saved us 12% over our previous broker."</p>
+        <div class="testimonial-author"><div class="testimonial-avatar">MR</div><div><div class="testimonial-name">Mike Rodriguez</div><div class="testimonial-company">VP Logistics · Atlantic Foods Group</div></div></div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-text">"As a broker, I need carriers I can trust. Zetto picks up the phone, sends POD fast, and their tracking is always live. They're on my A-list."</p>
+        <div class="testimonial-author"><div class="testimonial-avatar">SL</div><div><div class="testimonial-name">Sarah Lee</div><div class="testimonial-company">Senior Broker · NovaTrans 3PL</div></div></div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-text">"The reefer service is top-notch. Our pharma shipments have never had a temperature excursion. Certified, compliant, professional."</p>
+        <div class="testimonial-author"><div class="testimonial-avatar">DK</div><div><div class="testimonial-name">David Kim</div><div class="testimonial-company">Supply Chain Dir · MedTech PA</div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── ABOUT / PHILLY ── -->
+<section class="section-dark" id="about">
+  <div class="container">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center">
+      <div>
+        <div class="section-label">About Us</div>
+        <h2 style="font-family:var(--f-display);font-size:clamp(28px,4vw,48px);font-weight:900;line-height:1.1;color:var(--white);margin-bottom:20px">Born in Philadelphia.<br><span style="color:var(--gold)">Built to Deliver.</span></h2>
+        <p style="color:var(--gray-500);line-height:1.7;margin-bottom:20px">Zetto Logistics was founded in 2020 in Philadelphia, PA by a team of trucking veterans with over 30 years of combined experience in freight transportation.</p>
+        <p style="color:var(--gray-500);line-height:1.7;margin-bottom:32px">We started with 3 trucks and a promise: transparent rates, real-time updates, and zero missed pickups. Today we operate 50+ units across the Northeast corridor — still with the same philosophy.</p>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+          <div style="padding:20px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:6px">
+            <div style="font-family:var(--f-mono);font-size:10px;color:var(--gold);letter-spacing:.1em;margin-bottom:8px">HEADQUARTERS</div>
+            <div style="font-size:14px;color:var(--white);line-height:1.6">Greater Philadelphia, PA<br><a href="tel:+12677785050" style="color:var(--gold)">267-778-5050</a></div>
+          </div>
+          <div style="padding:20px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:6px">
+            <div style="font-family:var(--f-mono);font-size:10px;color:var(--gold);letter-spacing:.1em;margin-bottom:8px">COMPLIANCE</div>
+            <div style="font-size:13px;color:var(--gray-500);line-height:1.8">USDOT 3456789<br>MC 1234567<br>PA PUC A-123456</div>
+          </div>
+        </div>
+      </div>
+      <div style="background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:12px;padding:48px;text-align:center">
+        <div style="font-family:var(--f-display);font-size:64px;font-weight:900;color:var(--gold);line-height:1">PHL</div>
+        <div style="font-family:var(--f-mono);font-size:11px;color:var(--gray-500);letter-spacing:.14em;margin:8px 0 24px">PHILADELPHIA FREIGHT HUB</div>
+        <div style="border-top:1px solid rgba(255,255,255,.08);padding-top:24px;display:flex;flex-direction:column;gap:12px;text-align:left">
+          <div style="font-size:13px;color:var(--gray-500);display:flex;align-items:center;gap:10px"><span style="color:var(--scarlet)">→</span>2 miles from I-95 & I-76 interchange</div>
+          <div style="font-size:13px;color:var(--gray-500);display:flex;align-items:center;gap:10px"><span style="color:var(--scarlet)">→</span>5 miles from Port of Philadelphia</div>
+          <div style="font-size:13px;color:var(--gray-500);display:flex;align-items:center;gap:10px"><span style="color:var(--scarlet)">→</span>Adjacent to PHL International Airport</div>
+          <div style="font-size:13px;color:var(--gray-500);display:flex;align-items:center;gap:10px"><span style="color:var(--scarlet)">→</span>50M+ consumers within 5-hour drive</div>
+          <div style="font-size:13px;color:var(--gray-500);display:flex;align-items:center;gap:10px"><span style="color:var(--scarlet)">→</span>24/7 yard access, drop & hook available</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer id="contact">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo">
+          <div style="font-family:var(--f-display);font-size:28px;font-weight:900">
+            <span style="color:var(--white)">ZET</span><span style="color:var(--scarlet)">TO</span>
+          </div>
+          <div style="font-family:var(--f-mono);font-size:9px;letter-spacing:.18em;color:var(--gold)">LOGISTICS</div>
+        </div>
+        <p class="footer-desc">Philadelphia's trusted carrier for Dry Van, Reefer, Flatbed, and LTL freight. Serving the Northeast corridor since 2020.</p>
+        <div class="footer-compliance">
+          <div class="fc-item">USDOT <strong>3456789</strong> · MC <strong>1234567</strong></div>
+          <div class="fc-item">PA PUC <strong>A-123456</strong> · ELD Compliant</div>
+          <div class="fc-item">Safety: <strong style="color:#4ade80">SATISFACTORY</strong></div>
+          <div class="fc-item" style="margin-top:4px"><a href="https://safer.fmcsa.dot.gov" target="_blank" rel="noopener" style="color:var(--gold)">Verify on FMCSA.dot.gov →</a></div>
+        </div>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <div class="footer-links">
+          <a href="#services" class="footer-link">Dry Van</a>
+          <a href="#services" class="footer-link">Reefer</a>
+          <a href="#services" class="footer-link">Flatbed</a>
+          <a href="#services" class="footer-link">LTL</a>
+          <a href="#services" class="footer-link">Dedicated Fleet</a>
+          <a href="#services" class="footer-link">Expedited</a>
+        </div>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <div class="footer-links">
+          <a href="#about" class="footer-link">About Us</a>
+          <a href="#lanes" class="footer-link">Lane Coverage</a>
+          <a href="#shippers" class="footer-link">For Shippers</a>
+          <a href="#" class="footer-link">Careers</a>
+          <a href="#" class="footer-link">Safety & Compliance</a>
+        </div>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <div class="footer-links">
+          <a href="tel:+12677785050" class="footer-link" style="color:var(--gold);font-family:var(--f-mono);font-size:16px">267-778-5050</a>
+          <a href="mailto:info@zettologistics.com" class="footer-link">info@zettologistics.com</a>
+          <span class="footer-link" style="cursor:default">Greater Philadelphia, PA</span>
+          <div style="display:flex;gap:12px;margin-top:12px">
+            <a href="https://t.me/zettologistics" class="footer-link" style="padding:8px 14px;border:1px solid rgba(255,255,255,.12);border-radius:4px;font-size:12px">Telegram</a>
+            <a href="https://wa.me/12677785050" class="footer-link" style="padding:8px 14px;border:1px solid rgba(255,255,255,.12);border-radius:4px;font-size:12px">WhatsApp</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Zetto Logistics LLC · Philadelphia, PA · All rights reserved</span>
+      <div class="footer-bottom-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Sitemap</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-scarlet-line"></div>
+</footer>
+
+<!-- ── FLOATING CTA ── -->
+<div class="float-cta">
+  <button class="float-btn float-btn-wa" onclick="window.open('https://wa.me/12677785050','_blank')">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    WhatsApp
+  </button>
+  <a href="#quote" class="float-btn float-btn-quote">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+    Get Quote
+  </a>
+</div>
+
+<script>
+function handleQuote(e){
+  e.preventDefault();
+  const btn = e.target.querySelector('.form-submit');
+  btn.textContent = '✓ Request Sent! We\'ll call you within 30 min.';
+  btn.style.background = '#16a34a';
+  setTimeout(()=>{
+    btn.textContent = 'Get My Rate Now →';
+    btn.style.background = '';
+    e.target.reset();
+  }, 4000);
+}
+
+// Smooth active nav on scroll
+const sections = document.querySelectorAll('section[id]');
+const navLinks = document.querySelectorAll('.nav-link');
+window.addEventListener('scroll',()=>{
+  let current='';
+  sections.forEach(s=>{
+    if(window.scrollY >= s.offsetTop - 120) current = s.id;
+  });
+  navLinks.forEach(l=>{
+    l.classList.remove('active');
+    if(l.getAttribute('href')==='#'+current) l.classList.add('active');
+  });
+});
+</script>
+</body>
+</html>
