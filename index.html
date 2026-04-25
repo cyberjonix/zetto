@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Trucking Company Philadelphia PA | Truckload, Dry Van, Reefer | Zetto Logistics</title>
+<title>Zetto Logistics | Trucking Company Philadelphia PA</title>
 <meta name="description" content="Zetto Logistics — Philadelphia's premier trucking company. Dry Van, Reefer, Flatbed, LTL. Interstate &amp; Nationwide freight. USDOT licensed. Get an instant quote.">
 <meta name="keywords" content="trucking company Philadelphia PA, freight shipping Philadelphia, truckload Philadelphia, dry van Philly, reefer transport PA, LTL Philadelphia, freight broker Philadelphia">
 <meta property="og:title" content="Zetto Logistics | Trucking Company Philadelphia PA">
@@ -289,6 +289,87 @@ footer{background:var(--navy);color:var(--white);padding:80px 0 0}
 .delay-2{animation-delay:.2s}
 .delay-3{animation-delay:.3s}
 .delay-4{animation-delay:.4s}
+
+@media(max-width:768px){
+  /* NAV */
+  .nav-links,.nav-cta .btn,.nav-phone{display:none}
+  .hamburger{display:flex}
+  .nav-inner{height:60px}
+  .logo-zet,.logo-to{font-size:24px}
+
+  /* HERO */
+  .hero{min-height:100svh;padding:0}
+  .hero-content{padding:80px 0 40px}
+  .hero h1{font-size:clamp(32px,8vw,52px);margin-bottom:20px}
+  .hero-sub{font-size:15px;margin-bottom:28px}
+  .hero-ctas{flex-direction:column;gap:10px}
+  .hero-ctas .btn{width:100%;justify-content:center;font-size:15px;padding:14px 20px}
+  .hero-stats{grid-template-columns:repeat(2,1fr);max-width:100%}
+  .hero-stat-num{font-size:26px}
+  .hero-visual{display:none}
+
+  /* COMPLIANCE STRIP */
+  .compliance-inner{flex-direction:column;gap:8px;text-align:center}
+  .c-sep{display:none}
+
+  /* SECTIONS */
+  section{padding:56px 0}
+  .container{padding:0 16px}
+
+  /* SERVE GRID */
+  .serve-grid{grid-template-columns:1fr;gap:1px}
+  .serve-card{padding:32px 24px}
+
+  /* SERVICES */
+  .services-header{grid-template-columns:1fr;gap:24px;margin-bottom:32px}
+  .services-grid{grid-template-columns:1fr;gap:16px}
+  .service-card{padding:24px}
+
+  /* LANES */
+  .lanes-grid{grid-template-columns:1fr;gap:40px}
+  .lane-map{display:none}
+  .lane-item{padding:14px 0}
+  .lane-from-to{font-size:14px}
+
+  /* QUOTE */
+  .quote-inner{grid-template-columns:1fr;gap:32px}
+  .quote-form{padding:28px 20px}
+  .form-grid{grid-template-columns:1fr}
+  .form-grid.full{grid-template-columns:1fr}
+
+  /* TRUST */
+  [style*="grid-template-columns:repeat(3,1fr)"]{display:grid!important;grid-template-columns:1fr!important;gap:16px!important}
+
+  /* STATS */
+  .trust-grid{grid-template-columns:repeat(2,1fr);gap:16px}
+  .trust-num{font-size:36px}
+
+  /* TESTIMONIALS */
+  .testimonials-grid{grid-template-columns:1fr;gap:16px}
+
+  /* ABOUT */
+  [style*="grid-template-columns:1fr 1fr"]{display:flex!important;flex-direction:column!important;gap:32px!important}
+
+  /* FOOTER */
+  .footer-grid{grid-template-columns:1fr;gap:32px}
+  .footer-bottom{flex-direction:column;gap:12px;text-align:center}
+  .footer-bottom-links{justify-content:center}
+
+  /* FLOAT CTA */
+  .float-cta{bottom:16px;right:12px;gap:8px}
+  .float-btn{padding:10px 16px;font-size:13px}
+
+  /* TOP BAR */
+  .topbar-left{flex-direction:column;gap:6px;align-items:flex-start}
+  .compliance-badge{font-size:9px;flex-wrap:wrap;justify-content:center}
+}
+
+@media(max-width:480px){
+  .hero h1{font-size:28px}
+  .trust-grid{grid-template-columns:1fr}
+  .hero-stats{grid-template-columns:1fr 1fr}
+}
+
 </style>
 </head>
 <body>
